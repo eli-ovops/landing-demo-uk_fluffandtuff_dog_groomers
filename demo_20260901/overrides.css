@@ -1,0 +1,12 @@
+.care__facts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 0;
+  border-top: 1px solid var(--line);
+}
+.care__facts div { padding: 1.15rem 0; border-bottom: 1px solid var(--line); }
+.care__facts dt { font: 800 clamp(2rem, 3.3vw, 3.25rem)/1 var(--display); letter-spacing: -.06em; }
+.care__facts dd { margin: .4rem 0 0; color: var(--ink-soft); font-size: .82rem; font-weight: 700; }
+.care__image { display: none; }
+@media (max-width: 760px) { .care__facts { max-width: 420px; } }
